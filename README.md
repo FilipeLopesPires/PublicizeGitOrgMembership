@@ -10,4 +10,10 @@ This Node project provides a simple way to overcome this limitation and modify m
 
 ## Instructions
 
-(todo)
+1. Install [Node](https://nodejs.org/en) v18+.
+2. Install [Octokit](https://github.com/octokit/core.js#readme), using `npm install @octokit/rest`.
+3. Generate a Personal Access Token (Classic) with `write:org` permissions. 
+4. Copy the newly generated token and replace the `TOKEN` string in `index.js` with it.
+5. Also in `index.js`, replace the ORGANIZATION and MEMBER strings with the target organization and member username.
+6. Run `node index.js` to update that user's membership visibility to public in the target organization.
+
